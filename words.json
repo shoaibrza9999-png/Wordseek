@@ -1,0 +1,62 @@
+[
+    {
+        "word": "apple",
+        "meaning_en": "a round fruit with red or green skin and a whitish interior",
+        "meaning_hi": "सेब",
+        "sentence": "An apple a day keeps the doctor away."
+    },
+    {
+        "word": "house",
+        "meaning_en": "a building for human habitation",
+        "meaning_hi": "घर",
+        "sentence": "They live in a beautiful house near the lake."
+    },
+    {
+        "word": "water",
+        "meaning_en": "a transparent liquid that forms seas, rivers, and rain",
+        "meaning_hi": "पानी",
+        "sentence": "Please give me a glass of water."
+    },
+    {
+        "word": "light",
+        "meaning_en": "the natural agent that makes things visible",
+        "meaning_hi": "रोशनी",
+        "sentence": "The light from the sun is essential."
+    },
+    {
+        "word": "plant",
+        "meaning_en": "a living organism like trees, shrubs, or herbs",
+        "meaning_hi": "पौधा",
+        "sentence": "She decided to plant a garden."
+    },
+    {
+        "word": "smile",
+        "meaning_en": "a pleased, kind, or amused expression",
+        "meaning_hi": "मुस्कान",
+        "sentence": "A friendly smile can brighten a day."
+    },
+    {
+        "word": "dream",
+        "meaning_en": "thoughts, images, and sensations occurring in sleep",
+        "meaning_hi": "सपना",
+        "sentence": "He had a strange dream last night."
+    },
+    {
+        "word": "music",
+        "meaning_en": "vocal or instrumental sounds to produce harmony",
+        "meaning_hi": "संगीत",
+        "sentence": "Listening to music helps her relax."
+    },
+    {
+        "word": "heart",
+        "meaning_en": "muscular organ that pumps blood",
+        "meaning_hi": "दिल",
+        "sentence": "His heart beat faster."
+    },
+    {
+        "word": "space",
+        "meaning_en": "a continuous area or expanse",
+        "meaning_hi": "जगह",
+        "sentence": "There is enough space in the car."
+    }
+]
