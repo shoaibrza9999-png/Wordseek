@@ -2,3 +2,6 @@ pyTelegramBotAPI
 nltk
 requests
 deep-translator
+psycopg2-binary
+Flask
+gunicorn

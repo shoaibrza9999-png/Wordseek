@@ -3,15 +3,25 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import database as db
 import random
 import os
+from flask import Flask, request, abort
 
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8487275902:AAE4rbFbYj9zrcXQQ9oUaVbUgkF0ic439Sg')
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# Initialize database and seed words
-db.init_db()
-if os.path.exists('words.json'):
-    db.seed_words('words.json')
+app = Flask(__name__)
 
+# Initialize database and seed words
+try:
+    db.init_db()
+    if os.path.exists('words.json'):
+        db.seed_words('words.json')
+except Exception as e:
+    print(f"Error initializing DB: {e}")
+
+# In-memory store for active games
+# Note: Since this is going to run on Render which might restart,
+# active games might be lost. In a real-world scenario, you would
+# store active games in the database.
 active_games = {}
 
 def checkword(userword, guessedword):
@@ -107,7 +117,7 @@ def show_leaderboard(message):
     user_points = db.get_user_global_points(user_id)
     msg += f"\n👉 *Your Global Points:* {user_points}"
 
-    # Button to see group leaderboard (only makes sense in groups)
+    # Button to see group leaderboard
     markup = InlineKeyboardMarkup()
     if message.chat.type in ['group', 'supergroup']:
         btn = InlineKeyboardButton("Group Leaderboard", callback_data=f"group_lb_{chat_id}")
@@ -141,7 +151,7 @@ def handle_guess(message):
     if chat_id not in active_games:
         return
 
-    # Process text: remove spaces from ends, check length
+    # Process text
     text = message.text.strip()
     if len(text) != 5:
         return
@@ -158,18 +168,13 @@ def handle_guess(message):
 
     guessed_word = game['word_info']['word']
 
-    # Generate the visual feedback string
     result_str = checkword(text, guessed_word)
 
-    # Send result string without replying
     bot.send_message(chat_id, result_str)
 
-    # Check if correct
     if text == guessed_word:
-        # User guessed it correctly!
         tries = game['guess_count']
 
-        # Calculate points based on tries (1-5 points)
         if tries == 1:
             points = 5
         elif tries == 2:
@@ -184,26 +189,39 @@ def handle_guess(message):
         user = message.from_user
         username = user.username or user.first_name
 
-        # Determine group_id. If private chat, group_id is 0
         group_id = chat_id if message.chat.type in ['group', 'supergroup'] else 0
 
-        # Add points to DB
         db.add_points(user.id, username, group_id, points)
 
-        # React to message randomly
         reactions = ["🏆", "🎉", "🎊"]
         try:
             bot.set_message_reaction(chat_id, message.id, [telebot.types.ReactionTypeEmoji(random.choice(reactions))], is_big=False)
-        except Exception as e:
+        except Exception:
             pass
 
-        # Send word details
         details = format_word_details(game['word_info'])
         bot.send_message(chat_id, f"🎉 *{username}* guessed the word in {tries} tries and earned *{points} points*!\n\n{details}", parse_mode='Markdown')
 
-        # End game
         del active_games[chat_id]
 
+@app.route('/', methods=['POST'])
+def webhook():
+    if request.headers.get('content-type') == 'application/json':
+        json_string = request.get_data().decode('utf-8')
+        update = telebot.types.Update.de_json(json_string)
+        bot.process_new_updates([update])
+        return '', 200
+    else:
+        abort(403)
+
+@app.route('/', methods=['GET'])
+def index():
+    return 'Bot is running', 200
+
 if __name__ == '__main__':
-    print("Bot is running...")
-    bot.infinity_polling()
+    bot.remove_webhook()
+    # In production, this should be set to the public URL using the setWebhook API or manually
+    # bot.set_webhook(url=os.environ.get('RENDER_EXTERNAL_URL'))
+
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
