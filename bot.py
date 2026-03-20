@@ -37,20 +37,20 @@ def checkword(userword, guessedword):
 
 def format_word_details(word_info):
     details = (
-        f"The word was: *{word_info['word'].upper()}*\n"
+        f"The word was: <b>{word_info['word'].upper()}</b>\n"
         f"Difficulty: {word_info.get('difficulty', 1)}/10\n\n"
-        f"📖 *Meaning (EN):* {word_info['meaning_en']}\n"
-        f"📖 *Meaning (HI):* {word_info['meaning_hi']}\n\n"
-        f"📝 *Sentence:* {word_info['sentence']}\n"
+        f"📖 <b>Meaning (EN):</b> {word_info['meaning_en']}\n"
+        f"📖 <b>Meaning (HI):</b> {word_info['meaning_hi']}\n\n"
+        f"📝 <b>Sentence:</b> {word_info['sentence']}\n"
     )
 
     similar = word_info.get('similar_words', [])
     if similar:
-        details += f"\n🔄 *Similar Words:* {', '.join(similar)}"
+        details += f"\n🔄 <b>Similar Words:</b> {', '.join(similar)}"
 
     rhyming = word_info.get('rhyming_words', [])
     if rhyming:
-        details += f"\n🎵 *Rhyming Words:* {', '.join(rhyming)}"
+        details += f"\n🎵 <b>Rhyming Words:</b> {', '.join(rhyming)}"
 
     return details
 
@@ -77,11 +77,11 @@ def start_new_game(message):
 
     bot.send_message(
         chat_id,
-        f"🎮 *Wordseek Game Started!*\n\n"
+        f"🎮 <b>Wordseek Game Started!</b>\n\n"
         f"I have picked a random 5-letter word.\n"
         f"Difficulty: {difficulty}/10\n\n"
         f"Start guessing by sending 5-letter words!",
-        parse_mode='Markdown'
+        parse_mode='HTML'
     )
 
 @bot.message_handler(commands=['end'])
@@ -95,7 +95,7 @@ def end_game(message):
     word_info = active_games[chat_id]['word_info']
     details = format_word_details(word_info)
 
-    bot.send_message(chat_id, f"Game ended by {message.from_user.first_name}.\n\n{details}", parse_mode='Markdown')
+    bot.send_message(chat_id, f"Game ended by {message.from_user.first_name}.\n\n{details}", parse_mode='HTML')
     del active_games[chat_id]
 
 @bot.message_handler(commands=['leaderboard'])
@@ -106,7 +106,7 @@ def show_leaderboard(message):
     # Get global leaderboard
     top_global = db.get_top_global(10)
 
-    msg = "🏆 *Global Leaderboard (Top 10)*\n\n"
+    msg = "🏆 <b>Global Leaderboard (Top 10)</b>\n\n"
     if not top_global:
         msg += "No players yet.\n"
     else:
@@ -115,7 +115,7 @@ def show_leaderboard(message):
 
     # Add user's score
     user_points = db.get_user_global_points(user_id)
-    msg += f"\n👉 *Your Global Points:* {user_points}"
+    msg += f"\n👉 <b>Your Global Points:</b> {user_points}"
 
     # Button to see group leaderboard
     markup = InlineKeyboardMarkup()
@@ -123,7 +123,7 @@ def show_leaderboard(message):
         btn = InlineKeyboardButton("Group Leaderboard", callback_data=f"group_lb_{chat_id}")
         markup.add(btn)
 
-    bot.send_message(chat_id, msg, parse_mode='Markdown', reply_markup=markup)
+    bot.send_message(chat_id, msg, parse_mode='HTML', reply_markup=markup)
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith('group_lb_'))
 def group_leaderboard_callback(call):
@@ -133,7 +133,7 @@ def group_leaderboard_callback(call):
         return
 
     top_group = db.get_top_group(group_id, 10)
-    msg = "🏆 *Group Leaderboard (Top 10)*\n\n"
+    msg = "🏆 <b>Group Leaderboard (Top 10)</b>\n\n"
 
     if not top_group:
         msg += "No players in this group yet.\n"
@@ -142,7 +142,7 @@ def group_leaderboard_callback(call):
             msg += f"{i}. {username if username else 'Unknown'} - {points} pts\n"
 
     bot.answer_callback_query(call.id)
-    bot.send_message(call.message.chat.id, msg, parse_mode='Markdown')
+    bot.send_message(call.message.chat.id, msg, parse_mode='HTML')
 
 @bot.message_handler(func=lambda message: True)
 def handle_guess(message):
@@ -200,7 +200,7 @@ def handle_guess(message):
             pass
 
         details = format_word_details(game['word_info'])
-        bot.send_message(chat_id, f"🎉 *{username}* guessed the word in {tries} tries and earned *{points} points*!\n\n{details}", parse_mode='Markdown')
+        bot.send_message(chat_id, f"🎉 <b>{username}</b> guessed the word in {tries} tries and earned <b>{points} points</b>!\n\n{details}", parse_mode='HTML')
 
         del active_games[chat_id]
 
