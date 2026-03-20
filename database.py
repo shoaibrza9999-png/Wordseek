@@ -34,7 +34,10 @@ def init_db():
             word TEXT UNIQUE,
             meaning_en TEXT,
             meaning_hi TEXT,
-            sentence TEXT
+            sentence TEXT,
+            difficulty INTEGER DEFAULT 1,
+            similar_words TEXT,
+            rhyming_words TEXT
         )
     ''')
     conn.commit()
@@ -113,11 +116,16 @@ def seed_words(json_file):
     conn = get_connection()
     c = conn.cursor()
     for item in words_data:
+        # Provide default values for new fields if they don't exist in the json
+        difficulty = item.get('difficulty', 1)
+        similar_words = json.dumps(item.get('similar_words', []))
+        rhyming_words = json.dumps(item.get('rhyming_words', []))
+
         try:
             c.execute('''
-                INSERT OR IGNORE INTO words (word, meaning_en, meaning_hi, sentence)
-                VALUES (?, ?, ?, ?)
-            ''', (item['word'].lower(), item['meaning_en'], item['meaning_hi'], item['sentence']))
+                INSERT OR IGNORE INTO words (word, meaning_en, meaning_hi, sentence, difficulty, similar_words, rhyming_words)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            ''', (item['word'].lower(), item['meaning_en'], item['meaning_hi'], item['sentence'], difficulty, similar_words, rhyming_words))
         except Exception as e:
             print(f"Error inserting word {item['word']}: {e}")
 
@@ -127,11 +135,19 @@ def seed_words(json_file):
 def get_random_word():
     conn = get_connection()
     c = conn.cursor()
-    c.execute('SELECT word, meaning_en, meaning_hi, sentence FROM words ORDER BY RANDOM() LIMIT 1')
+    c.execute('SELECT word, meaning_en, meaning_hi, sentence, difficulty, similar_words, rhyming_words FROM words ORDER BY RANDOM() LIMIT 1')
     res = c.fetchone()
     conn.close()
     if res:
-        return {"word": res[0], "meaning_en": res[1], "meaning_hi": res[2], "sentence": res[3]}
+        return {
+            "word": res[0],
+            "meaning_en": res[1],
+            "meaning_hi": res[2],
+            "sentence": res[3],
+            "difficulty": res[4],
+            "similar_words": json.loads(res[5] if res[5] else '[]'),
+            "rhyming_words": json.loads(res[6] if res[6] else '[]')
+        }
     return None
 
 def is_valid_word(word):

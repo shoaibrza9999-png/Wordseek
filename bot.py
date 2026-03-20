@@ -4,7 +4,6 @@ import database as db
 import random
 import os
 
-# You will need to replace 'YOUR_BOT_TOKEN' with your actual bot token
 BOT_TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -13,8 +12,6 @@ db.init_db()
 if os.path.exists('words.json'):
     db.seed_words('words.json')
 
-# In-memory store for active games
-# Structure: { chat_id: {'word_info': {...}, 'guesses': set(), 'guess_count': 0} }
 active_games = {}
 
 def checkword(userword, guessedword):
@@ -29,12 +26,23 @@ def checkword(userword, guessedword):
     return a
 
 def format_word_details(word_info):
-    return (
-        f"The word was: *{word_info['word'].upper()}*\n\n"
+    details = (
+        f"The word was: *{word_info['word'].upper()}*\n"
+        f"Difficulty: {word_info.get('difficulty', 1)}/10\n\n"
         f"📖 *Meaning (EN):* {word_info['meaning_en']}\n"
         f"📖 *Meaning (HI):* {word_info['meaning_hi']}\n\n"
-        f"📝 *Sentence:* {word_info['sentence']}"
+        f"📝 *Sentence:* {word_info['sentence']}\n"
     )
+
+    similar = word_info.get('similar_words', [])
+    if similar:
+        details += f"\n🔄 *Similar Words:* {', '.join(similar)}"
+
+    rhyming = word_info.get('rhyming_words', [])
+    if rhyming:
+        details += f"\n🎵 *Rhyming Words:* {', '.join(rhyming)}"
+
+    return details
 
 @bot.message_handler(commands=['new'])
 def start_new_game(message):
@@ -55,7 +63,16 @@ def start_new_game(message):
         'guess_count': 0
     }
 
-    bot.send_message(chat_id, "🎮 *Wordseek Game Started!*\n\nI have picked a random 5-letter word.\nStart guessing by sending 5-letter words!", parse_mode='Markdown')
+    difficulty = word_info.get('difficulty', 1)
+
+    bot.send_message(
+        chat_id,
+        f"🎮 *Wordseek Game Started!*\n\n"
+        f"I have picked a random 5-letter word.\n"
+        f"Difficulty: {difficulty}/10\n\n"
+        f"Start guessing by sending 5-letter words!",
+        parse_mode='Markdown'
+    )
 
 @bot.message_handler(commands=['end'])
 def end_game(message):
@@ -152,7 +169,7 @@ def handle_guess(message):
         # User guessed it correctly!
         tries = game['guess_count']
 
-        # Calculate points based on tries (1-5 points, e.g. 1 try = 5 pts, 5+ tries = 1 pt)
+        # Calculate points based on tries (1-5 points)
         if tries == 1:
             points = 5
         elif tries == 2:
@@ -167,7 +184,7 @@ def handle_guess(message):
         user = message.from_user
         username = user.username or user.first_name
 
-        # Determine group_id. If private chat, group_id is 0 or chat_id. Let's use 0 for private chats
+        # Determine group_id. If private chat, group_id is 0
         group_id = chat_id if message.chat.type in ['group', 'supergroup'] else 0
 
         # Add points to DB
@@ -175,13 +192,10 @@ def handle_guess(message):
 
         # React to message randomly
         reactions = ["🏆", "🎉", "🎊"]
-        # Note: reactions in telegram bot api requires specific setup (can only react in chats where bot is admin etc.)
-        # As an alternative if reactions are not supported, we can send a reply
         try:
             bot.set_message_reaction(chat_id, message.id, [telebot.types.ReactionTypeEmoji(random.choice(reactions))], is_big=False)
         except Exception as e:
-            # Fallback if bot can't react (e.g. not admin, or api limit)
-            print(f"Failed to react: {e}")
+            pass
 
         # Send word details
         details = format_word_details(game['word_info'])

@@ -1,62 +1,1688 @@
 [
     {
-        "word": "apple",
-        "meaning_en": "a round fruit with red or green skin and a whitish interior",
-        "meaning_hi": "सेब",
-        "sentence": "An apple a day keeps the doctor away."
+        "word": "slang",
+        "meaning_en": "informal language consisting of words and expressions that are not considered appropriate for formal occasions; often vituperative or vulgar",
+        "meaning_hi": "अनौपचारिक भाषा जिसमें ऐसे शब्द और अभिव्यक्तियाँ शामिल हैं जिन्हें औपचारिक अवसरों के लिए उपयुक्त नहीं माना जाता है; अक्सर निंदनीय या अश्लील",
+        "sentence": "their speech was full of slang expressions",
+        "difficulty": 3,
+        "similar_words": [
+            "cant",
+            "jargon",
+            "vernacular"
+        ],
+        "rhyming_words": [
+            "bang",
+            "tang",
+            "harangue"
+        ]
     },
     {
-        "word": "house",
-        "meaning_en": "a building for human habitation",
-        "meaning_hi": "घर",
-        "sentence": "They live in a beautiful house near the lake."
+        "word": "porto",
+        "meaning_en": "port city in northwest Portugal; noted for port wine",
+        "meaning_hi": "उत्तर पश्चिमी पुर्तगाल में बंदरगाह शहर; पोर्ट वाइन के लिए विख्यात",
+        "sentence": "This is an example sentence for porto.",
+        "difficulty": 4,
+        "similar_words": [
+            "harbour",
+            "haven",
+            "port"
+        ],
+        "rhyming_words": [
+            "quarto",
+            "court o",
+            "ct o"
+        ]
     },
     {
-        "word": "water",
-        "meaning_en": "a transparent liquid that forms seas, rivers, and rain",
-        "meaning_hi": "पानी",
-        "sentence": "Please give me a glass of water."
+        "word": "drain",
+        "meaning_en": "emptying something accomplished by allowing liquid to run out of it",
+        "meaning_hi": "किसी चीज़ को खाली करने का कार्य उसमें से तरल पदार्थ को बाहर निकलने देना",
+        "sentence": "This is an example sentence for drain.",
+        "difficulty": 5,
+        "similar_words": [
+            "drainpipe",
+            "waste pipe",
+            "drainage"
+        ],
+        "rhyming_words": [
+            "ascertain",
+            "disdain",
+            "sustain"
+        ]
     },
     {
-        "word": "light",
-        "meaning_en": "the natural agent that makes things visible",
-        "meaning_hi": "रोशनी",
-        "sentence": "The light from the sun is essential."
+        "word": "chess",
+        "meaning_en": "weedy annual native to Europe but widely distributed as a weed especially in wheat",
+        "meaning_hi": "यह यूरोप का वार्षिक मूल निवासी है, लेकिन विशेष रूप से गेहूं में खरपतवार के रूप में व्यापक रूप से वितरित किया जाता है",
+        "sentence": "This is an example sentence for chess.",
+        "difficulty": 6,
+        "similar_words": [
+            "cheat",
+            "bromus secalinus",
+            "chess game"
+        ],
+        "rhyming_words": [
+            "nonetheless",
+            "nevertheless",
+            "coalesce"
+        ]
     },
     {
-        "word": "plant",
-        "meaning_en": "a living organism like trees, shrubs, or herbs",
-        "meaning_hi": "पौधा",
-        "sentence": "She decided to plant a garden."
+        "word": "alpha",
+        "meaning_en": "the 1st letter of the Greek alphabet",
+        "meaning_hi": "ग्रीक वर्णमाला का पहला अक्षर",
+        "sentence": "This is an example sentence for alpha.",
+        "difficulty": 4,
+        "similar_words": [
+            "important",
+            "of import",
+            "alphabet"
+        ],
+        "rhyming_words": [
+            "alfalfa",
+            "sickle alfalfa",
+            "alf a"
+        ]
     },
     {
-        "word": "smile",
-        "meaning_en": "a pleased, kind, or amused expression",
-        "meaning_hi": "मुस्कान",
-        "sentence": "A friendly smile can brighten a day."
+        "word": "bushy",
+        "meaning_en": "used of hair; thick and poorly groomed",
+        "meaning_hi": "बालों का उपयोग; मोटा और खराब ढंग से तैयार किया गया",
+        "sentence": "bushy locks",
+        "difficulty": 1,
+        "similar_words": [
+            "branchy",
+            "shaggy",
+            "spreading"
+        ],
+        "rhyming_words": [
+            "cushy",
+            "pushy",
+            "bushie"
+        ]
     },
     {
-        "word": "dream",
-        "meaning_en": "thoughts, images, and sensations occurring in sleep",
-        "meaning_hi": "सपना",
-        "sentence": "He had a strange dream last night."
+        "word": "usher",
+        "meaning_en": "Irish prelate who deduced from the Bible that Creation occurred in the year 4004 BC (1581-1656)",
+        "meaning_hi": "आयरिश प्रीलेट जिन्होंने बाइबिल से निष्कर्ष निकाला कि सृष्टि 4004 ईसा पूर्व (1581-1656) में हुई थी",
+        "sentence": "This is an example sentence for usher.",
+        "difficulty": 6,
+        "similar_words": [
+            "guide",
+            "doorkeeper",
+            "show"
+        ],
+        "rhyming_words": [
+            "blusher",
+            "gusher",
+            "crusher"
+        ]
     },
     {
-        "word": "music",
-        "meaning_en": "vocal or instrumental sounds to produce harmony",
-        "meaning_hi": "संगीत",
-        "sentence": "Listening to music helps her relax."
+        "word": "bigot",
+        "meaning_en": "a prejudiced person who is intolerant of any opinions differing from his own",
+        "meaning_hi": "एक पूर्वाग्रहग्रस्त व्यक्ति जो अपने से भिन्न किसी भी राय के प्रति असहिष्णु है",
+        "sentence": "This is an example sentence for bigot.",
+        "difficulty": 4,
+        "similar_words": [
+            "intolerant",
+            "hater",
+            "bigotry"
+        ],
+        "rhyming_words": [
+            "spigot",
+            "frigate",
+            "gigot"
+        ]
     },
     {
-        "word": "heart",
-        "meaning_en": "muscular organ that pumps blood",
-        "meaning_hi": "दिल",
-        "sentence": "His heart beat faster."
+        "word": "scaup",
+        "meaning_en": "diving ducks of North America having a bluish-grey bill",
+        "meaning_hi": "उत्तरी अमेरिका की गोता लगाने वाली बत्तखें जिनकी चोंच नीले-भूरे रंग की होती है",
+        "sentence": "This is an example sentence for scaup.",
+        "difficulty": 7,
+        "similar_words": [
+            "bluebill",
+            "broadbill",
+            "scaup duck"
+        ],
+        "rhyming_words": [
+            "drop",
+            "top",
+            "crop"
+        ]
     },
     {
-        "word": "space",
-        "meaning_en": "a continuous area or expanse",
-        "meaning_hi": "जगह",
-        "sentence": "There is enough space in the car."
+        "word": "trike",
+        "meaning_en": "a vehicle with three wheels that is moved by foot pedals",
+        "meaning_hi": "तीन पहियों वाला एक वाहन जो पैरों के पैडल से चलता है",
+        "sentence": "This is an example sentence for trike.",
+        "difficulty": 4,
+        "similar_words": [
+            "velocipede",
+            "tricycle",
+            "tricar"
+        ],
+        "rhyming_words": [
+            "strike",
+            "like",
+            "pike"
+        ]
+    },
+    {
+        "word": "grapy",
+        "meaning_en": "having a taste like that of grapes",
+        "meaning_hi": "अंगूर जैसा स्वाद होना",
+        "sentence": "a grapey wine",
+        "difficulty": 1,
+        "similar_words": [
+            "grapey",
+            "tasteful",
+            "crapey"
+        ],
+        "rhyming_words": [
+            "scrapie",
+            "grapey",
+            "crepy"
+        ]
+    },
+    {
+        "word": "rutty",
+        "meaning_en": "full of ruts",
+        "meaning_hi": "गंदगी से भरा हुआ",
+        "sentence": "rutty farm roads",
+        "difficulty": 1,
+        "similar_words": [
+            "furrowed",
+            "rutted",
+            "rugate"
+        ],
+        "rhyming_words": [
+            "smutty",
+            "gutty",
+            "nutty"
+        ]
+    },
+    {
+        "word": "spoke",
+        "meaning_en": "support consisting of a radial member of a wheel joining the hub to the rim",
+        "meaning_hi": "हब को रिम से जोड़ने वाले पहिये के रेडियल सदस्य से युक्त समर्थन",
+        "sentence": "This is an example sentence for spoke.",
+        "difficulty": 5,
+        "similar_words": [
+            "rundle",
+            "rung",
+            "radius"
+        ],
+        "rhyming_words": [
+            "evoke",
+            "croak",
+            "stroke"
+        ]
+    },
+    {
+        "word": "magma",
+        "meaning_en": "molten rock in the earth's crust",
+        "meaning_hi": "पृथ्वी की पपड़ी में पिघली हुई चट्टान",
+        "sentence": "This is an example sentence for magma.",
+        "difficulty": 3,
+        "similar_words": [
+            "gabbroid",
+            "melt",
+            "igneous"
+        ],
+        "rhyming_words": [
+            "tagma",
+            "pragma"
+        ]
+    },
+    {
+        "word": "blade",
+        "meaning_en": "especially a leaf of grass or the broad portion of a leaf as distinct from the petiole",
+        "meaning_hi": "विशेष रूप से घास की पत्ती या पत्ती का चौड़ा भाग जो डंठल से भिन्न हो",
+        "sentence": "This is an example sentence for blade.",
+        "difficulty": 4,
+        "similar_words": [
+            "sword",
+            "vane",
+            "brand"
+        ],
+        "rhyming_words": [
+            "dismayed",
+            "accolade",
+            "renegade"
+        ]
+    },
+    {
+        "word": "clown",
+        "meaning_en": "a rude or vulgar fool",
+        "meaning_hi": "एक अशिष्ट या अशिष्ट मूर्ख",
+        "sentence": "This is an example sentence for clown.",
+        "difficulty": 5,
+        "similar_words": [
+            "antic",
+            "clown around",
+            "merry andrew"
+        ],
+        "rhyming_words": [
+            "frown",
+            "crown",
+            "down"
+        ]
+    },
+    {
+        "word": "grown",
+        "meaning_en": "pass into a condition gradually, take on a specific property or attribute; become",
+        "meaning_hi": "धीरे-धीरे एक स्थिति में आना, एक विशिष्ट गुण या विशेषता ग्रहण करना; बनना",
+        "sentence": "The weather turned nasty",
+        "difficulty": 2,
+        "similar_words": [
+            "mature",
+            "grownup",
+            "adult"
+        ],
+        "rhyming_words": [
+            "moan",
+            "groan",
+            "drone"
+        ]
+    },
+    {
+        "word": "affix",
+        "meaning_en": "a linguistic element added to a word to produce an inflected or derived form",
+        "meaning_hi": "किसी शब्द में विभक्त या व्युत्पन्न रूप उत्पन्न करने के लिए जोड़ा गया भाषाई तत्व",
+        "sentence": "This is an example sentence for affix.",
+        "difficulty": 3,
+        "similar_words": [
+            "add on",
+            "supplement",
+            "append"
+        ],
+        "rhyming_words": [
+            "nix",
+            "fix",
+            "politics"
+        ]
+    },
+    {
+        "word": "henna",
+        "meaning_en": "a reddish brown dye used especially on hair",
+        "meaning_hi": "एक लाल भूरे रंग का रंग जो विशेष रूप से बालों पर प्रयोग किया जाता है",
+        "sentence": "This is an example sentence for henna.",
+        "difficulty": 4,
+        "similar_words": [
+            "dyed",
+            "tinted",
+            "dye"
+        ],
+        "rhyming_words": [
+            "burnt sienna",
+            "antenna",
+            "modena"
+        ]
+    },
+    {
+        "word": "vomer",
+        "meaning_en": "thin trapezoidal bone of the skull forming the posterior and inferior parts of the nasal septum",
+        "meaning_hi": "खोपड़ी की पतली समलम्बाकार हड्डी नाक सेप्टम के पीछे और निचले हिस्से का निर्माण करती है",
+        "sentence": "This is an example sentence for vomer.",
+        "difficulty": 4,
+        "similar_words": [
+            "vomer bone",
+            "vomeropalatine",
+            "nasal bone"
+        ],
+        "rhyming_words": [
+            "shomer",
+            "although mere",
+            "fomor"
+        ]
+    },
+    {
+        "word": "pudgy",
+        "meaning_en": "short and plump",
+        "meaning_hi": "छोटा और मोटा",
+        "sentence": "This is an example sentence for pudgy.",
+        "difficulty": 1,
+        "similar_words": [
+            "podgy",
+            "fat",
+            "tubby"
+        ],
+        "rhyming_words": [
+            "smudgy",
+            "sludgy",
+            "kludgy"
+        ]
+    },
+    {
+        "word": "sassy",
+        "meaning_en": "improperly forward or bold",
+        "meaning_hi": "अनुचित रूप से आगे या बोल्ड",
+        "sentence": "don't be fresh with me",
+        "difficulty": 1,
+        "similar_words": [
+            "cheeky",
+            "brash",
+            "impudent"
+        ],
+        "rhyming_words": [
+            "assay",
+            "brassy",
+            "efficacy"
+        ]
+    },
+    {
+        "word": "cadre",
+        "meaning_en": "a small unit serving as part of or as the nucleus of a larger political movement",
+        "meaning_hi": "किसी बड़े राजनीतिक आंदोलन के हिस्से के रूप में या उसके केंद्र के रूप में सेवा करने वाली एक छोटी इकाई",
+        "sentence": "This is an example sentence for cadre.",
+        "difficulty": 3,
+        "similar_words": [
+            "cell",
+            "frame",
+            "framework"
+        ],
+        "rhyming_words": [
+            "madry"
+        ]
+    },
+    {
+        "word": "serow",
+        "meaning_en": "short-horned dark-coated goat antelope of mountain areas of southern and southeastern Asia",
+        "meaning_hi": "दक्षिणी और दक्षिणपूर्वी एशिया के पर्वतीय क्षेत्रों का छोटे सींग वाला काले रंग का लेपित बकरी मृग",
+        "sentence": "This is an example sentence for serow.",
+        "difficulty": 8,
+        "similar_words": [
+            "capricornis",
+            "genus capricornis",
+            "soricid"
+        ],
+        "rhyming_words": [
+            "marrow",
+            "narrow",
+            "barrow"
+        ]
+    },
+    {
+        "word": "smear",
+        "meaning_en": "slanderous defamation",
+        "meaning_hi": "निंदनीय मानहानि",
+        "sentence": "This is an example sentence for smear.",
+        "difficulty": 4,
+        "similar_words": [
+            "besmear",
+            "smudge",
+            "smirch"
+        ],
+        "rhyming_words": [
+            "austere",
+            "sneer",
+            "jeer"
+        ]
+    },
+    {
+        "word": "steed",
+        "meaning_en": "(literary) a spirited horse for state or war",
+        "meaning_hi": "(साहित्यिक) राज्य या युद्ध के लिए उत्साही घोड़ा",
+        "sentence": "This is an example sentence for steed.",
+        "difficulty": 8,
+        "similar_words": [
+            "horse",
+            "horsey",
+            "cheval"
+        ],
+        "rhyming_words": [
+            "accede",
+            "concede",
+            "impede"
+        ]
+    },
+    {
+        "word": "pipal",
+        "meaning_en": "fig tree of India noted for great size and longevity; lacks the prop roots of the banyan; regarded as sacred by Buddhists",
+        "meaning_hi": "भारत का अंजीर का पेड़ बड़े आकार और दीर्घायु के लिए जाना जाता है; बरगद की सहारा जड़ों का अभाव; बौद्धों द्वारा पवित्र माना जाता है",
+        "sentence": "This is an example sentence for pipal.",
+        "difficulty": 5,
+        "similar_words": [
+            "pipul",
+            "peepul",
+            "bo tree"
+        ],
+        "rhyming_words": [
+            "archetypal",
+            "typal",
+            "disciple"
+        ]
+    },
+    {
+        "word": "rangy",
+        "meaning_en": "tall and thin and having long slender limbs",
+        "meaning_hi": "लंबा और पतला और लंबे पतले अंगों वाला",
+        "sentence": "a gangling teenager",
+        "difficulty": 1,
+        "similar_words": [
+            "lanky",
+            "gangly",
+            "gangling"
+        ],
+        "rhyming_words": [
+            "mangy",
+            "change e",
+            "change g"
+        ]
+    },
+    {
+        "word": "sisal",
+        "meaning_en": "a plant fiber used for making rope",
+        "meaning_hi": "एक पौधे का रेशा जिसका उपयोग रस्सी बनाने के लिए किया जाता है",
+        "sentence": "This is an example sentence for sisal.",
+        "difficulty": 5,
+        "similar_words": [
+            "agave sisalana",
+            "sisal hemp",
+            "hemp"
+        ],
+        "rhyming_words": [
+            "weasel",
+            "resile",
+            "easel"
+        ]
+    },
+    {
+        "word": "soles",
+        "meaning_en": "a colloid that has a continuous liquid phase in which a solid is suspended in a liquid",
+        "meaning_hi": "एक कोलाइड जिसमें एक सतत तरल चरण होता है जिसमें एक ठोस तरल में निलंबित होता है",
+        "sentence": "This is an example sentence for soles.",
+        "difficulty": 7,
+        "similar_words": [
+            "only",
+            "single",
+            "lone"
+        ],
+        "rhyming_words": [
+            "extols",
+            "knolls",
+            "goals"
+        ]
+    },
+    {
+        "word": "pussy",
+        "meaning_en": "obscene terms for female genitals",
+        "meaning_hi": "महिला जननांगों के लिए अश्लील शब्द",
+        "sentence": "This is an example sentence for pussy.",
+        "difficulty": 7,
+        "similar_words": [
+            "puss",
+            "kitty",
+            "kitty-cat"
+        ],
+        "rhyming_words": []
+    },
+    {
+        "word": "liven",
+        "meaning_en": "make lively",
+        "meaning_hi": "जीवंत बनाओ",
+        "sentence": "let's liven up this room a bit",
+        "difficulty": 1,
+        "similar_words": [
+            "liven up",
+            "enliven",
+            "invigorate"
+        ],
+        "rhyming_words": [
+            "enliven",
+            "drive in",
+            "drive-in"
+        ]
+    },
+    {
+        "word": "octet",
+        "meaning_en": "the cardinal number that is the sum of seven and one",
+        "meaning_hi": "कार्डिनल संख्या जो सात और एक का योग है",
+        "sentence": "This is an example sentence for octet.",
+        "difficulty": 3,
+        "similar_words": [
+            "eightsome",
+            "ogdoad",
+            "octad"
+        ],
+        "rhyming_words": [
+            "epithet",
+            "set",
+            "sobriquet"
+        ]
+    },
+    {
+        "word": "stoop",
+        "meaning_en": "an inclination of the top half of the body forward and downward",
+        "meaning_hi": "शरीर के ऊपरी आधे भाग का आगे और नीचे की ओर झुकाव",
+        "sentence": "This is an example sentence for stoop.",
+        "difficulty": 4,
+        "similar_words": [
+            "stoep",
+            "bow",
+            "stoup"
+        ],
+        "rhyming_words": [
+            "group",
+            "poop",
+            "dupe"
+        ]
+    },
+    {
+        "word": "pithy",
+        "meaning_en": "concise and full of meaning; ; - Hervey Allen",
+        "meaning_hi": "संक्षिप्त और अर्थ से भरपूर; ; - हर्वे एलन",
+        "sentence": "welcomed her pithy comments",
+        "difficulty": 1,
+        "similar_words": [
+            "concise",
+            "sententious",
+            "sententiously"
+        ],
+        "rhyming_words": [
+            "withy",
+            "blacksmith he",
+            "bui thi"
+        ]
+    },
+    {
+        "word": "taint",
+        "meaning_en": "the state of being contaminated",
+        "meaning_hi": "दूषित होने की अवस्था",
+        "sentence": "This is an example sentence for taint.",
+        "difficulty": 3,
+        "similar_words": [
+            "defile",
+            "sully",
+            "contamination"
+        ],
+        "rhyming_words": [
+            "quaint",
+            "faint",
+            "feint"
+        ]
+    },
+    {
+        "word": "canon",
+        "meaning_en": "a rule or especially body of rules or principles generally established as valid and fundamental in a field or art or philosophy",
+        "meaning_hi": "एक नियम या विशेष रूप से नियमों या सिद्धांतों का समूह जो आम तौर पर किसी क्षेत्र या कला या दर्शन में वैध और मौलिक के रूप में स्थापित होता है",
+        "sentence": "the neoclassical canon",
+        "difficulty": 5,
+        "similar_words": [
+            "canyon",
+            "fit",
+            "law"
+        ],
+        "rhyming_words": [
+            "cannon",
+            "tannin",
+            "annon"
+        ]
+    },
+    {
+        "word": "chile",
+        "meaning_en": "a republic in southern South America on the western slopes of the Andes on the south Pacific coast",
+        "meaning_hi": "दक्षिण प्रशांत तट पर एंडीज़ के पश्चिमी ढलान पर दक्षिणी दक्षिण अमेरिका में एक गणराज्य",
+        "sentence": "This is an example sentence for chile.",
+        "difficulty": 5,
+        "similar_words": [
+            "chilly",
+            "chilli",
+            "chili pepper"
+        ],
+        "rhyming_words": [
+            "silly",
+            "involuntarily",
+            "chilly"
+        ]
+    },
+    {
+        "word": "torsk",
+        "meaning_en": "large edible marine fish of northern coastal waters; related to cod",
+        "meaning_hi": "उत्तरी तटीय जल की बड़ी खाद्य समुद्री मछलियाँ; कॉड से संबंधित",
+        "sentence": "This is an example sentence for torsk.",
+        "difficulty": 7,
+        "similar_words": [
+            "cusk",
+            "brosme brosme",
+            "cod"
+        ],
+        "rhyming_words": [
+            "remorse",
+            "coarse",
+            "endorse"
+        ]
+    },
+    {
+        "word": "nosey",
+        "meaning_en": "offensively curious or inquisitive",
+        "meaning_hi": "आक्रामक रूप से जिज्ञासु या जिज्ञासु",
+        "sentence": "curious about the neighbor's doings",
+        "difficulty": 1,
+        "similar_words": [
+            "prying",
+            "nosy",
+            "curious"
+        ],
+        "rhyming_words": [
+            "nosy",
+            "cozy",
+            "mosey"
+        ]
+    },
+    {
+        "word": "choky",
+        "meaning_en": "British slang (dated) for a prison",
+        "meaning_hi": "जेल के लिए ब्रिटिश बोली (दिनांकित)।",
+        "sentence": "This is an example sentence for choky.",
+        "difficulty": 5,
+        "similar_words": [
+            "chokey",
+            "tight",
+            "chockful"
+        ],
+        "rhyming_words": [
+            "smoky",
+            "genius loci",
+            "low-key"
+        ]
+    },
+    {
+        "word": "blair",
+        "meaning_en": "British statesman who became prime minister in 1997 (born in 1953)",
+        "meaning_hi": "ब्रिटिश राजनेता जो 1997 में प्रधान मंत्री बने (1953 में जन्म)",
+        "sentence": "This is an example sentence for blair.",
+        "difficulty": 5,
+        "similar_words": [
+            "bligh",
+            "lyle",
+            "scott"
+        ],
+        "rhyming_words": [
+            "despair",
+            "glare",
+            "debonair"
+        ]
+    },
+    {
+        "word": "mower",
+        "meaning_en": "garden tool for mowing grass on lawns",
+        "meaning_hi": "लॉन पर घास काटने के लिए उद्यान उपकरण",
+        "sentence": "This is an example sentence for mower.",
+        "difficulty": 4,
+        "similar_words": [
+            "lawn mower",
+            "lawnmower",
+            "reaper"
+        ],
+        "rhyming_words": [
+            "lower",
+            "sower",
+            "goer"
+        ]
+    },
+    {
+        "word": "scant",
+        "meaning_en": "work hastily or carelessly; deal with inadequately and superficially",
+        "meaning_hi": "जल्दबाजी या लापरवाही से काम करना; अपर्याप्त और सतही ढंग से निपटें",
+        "sentence": "This is an example sentence for scant.",
+        "difficulty": 3,
+        "similar_words": [
+            "deficient",
+            "insufficient",
+            "short"
+        ],
+        "rhyming_words": [
+            "cant",
+            "supplant",
+            "confidante"
+        ]
+    },
+    {
+        "word": "blend",
+        "meaning_en": "an occurrence of thorough mixing",
+        "meaning_hi": "पूरी तरह से मिश्रण की घटना",
+        "sentence": "This is an example sentence for blend.",
+        "difficulty": 4,
+        "similar_words": [
+            "intermingle",
+            "immix",
+            "intermix"
+        ],
+        "rhyming_words": [
+            "contend",
+            "comprehend",
+            "apprehend"
+        ]
+    },
+    {
+        "word": "missy",
+        "meaning_en": "a young woman",
+        "meaning_hi": "एक जवान औरत",
+        "sentence": "a young lady of 18",
+        "difficulty": 4,
+        "similar_words": [
+            "girl",
+            "young lady",
+            "miss"
+        ],
+        "rhyming_words": [
+            "sissy",
+            "prissy",
+            "pissy"
+        ]
+    },
+    {
+        "word": "snare",
+        "meaning_en": "something (often something deceptively attractive) that catches you unawares",
+        "meaning_hi": "कुछ (अक्सर कुछ भ्रामक रूप से आकर्षक) जो आपको अनजाने में पकड़ लेता है",
+        "sentence": "the exam was full of trap questions",
+        "difficulty": 5,
+        "similar_words": [
+            "entrap",
+            "ensnare",
+            "trap"
+        ],
+        "rhyming_words": [
+            "despair",
+            "glare",
+            "debonair"
+        ]
+    },
+    {
+        "word": "ampul",
+        "meaning_en": "a small bottle that contains a drug (especially a sealed sterile container for injection by needle)",
+        "meaning_hi": "एक छोटी बोतल जिसमें दवा होती है (विशेष रूप से सुई द्वारा इंजेक्शन के लिए एक सीलबंद बाँझ कंटेनर)",
+        "sentence": "This is an example sentence for ampul.",
+        "difficulty": 4,
+        "similar_words": [
+            "ampule",
+            "ampoule",
+            "vial"
+        ],
+        "rhyming_words": [
+            "ample",
+            "trample",
+            "for example"
+        ]
+    },
+    {
+        "word": "slant",
+        "meaning_en": "a biased way of looking at or presenting something",
+        "meaning_hi": "किसी चीज़ को देखने या प्रस्तुत करने का पक्षपातपूर्ण तरीका",
+        "sentence": "This is an example sentence for slant.",
+        "difficulty": 3,
+        "similar_words": [
+            "tilt",
+            "lean",
+            "tip"
+        ],
+        "rhyming_words": [
+            "cant",
+            "scant",
+            "supplant"
+        ]
+    },
+    {
+        "word": "woman",
+        "meaning_en": "an adult female person (as opposed to a man)",
+        "meaning_hi": "एक वयस्क महिला व्यक्ति (पुरुष के विपरीत)",
+        "sentence": "the woman kept house while the man hunted",
+        "difficulty": 6,
+        "similar_words": [
+            "girl",
+            "gal",
+            "maiden"
+        ],
+        "rhyming_words": [
+            "saleswoman",
+            "businesswoman",
+            "chairwoman"
+        ]
+    },
+    {
+        "word": "nobly",
+        "meaning_en": "in a noble manner",
+        "meaning_hi": "नेक तरीके से",
+        "sentence": "she has behaved nobly",
+        "difficulty": 1,
+        "similar_words": [
+            "well",
+            "honourably",
+            "worthily"
+        ],
+        "rhyming_words": [
+            "probably",
+            "knobbly",
+            "wabbly"
+        ]
+    },
+    {
+        "word": "algae",
+        "meaning_en": "primitive chlorophyll-containing mainly aquatic eukaryotic organisms lacking true stems and roots and leaves",
+        "meaning_hi": "आदिम क्लोरोफिल युक्त मुख्य रूप से जलीय यूकेरियोटिक जीवों में वास्तविक तनों और जड़ों और पत्तियों का अभाव होता है",
+        "sentence": "This is an example sentence for algae.",
+        "difficulty": 4,
+        "similar_words": [
+            "kelp",
+            "seaweed",
+            "bloom"
+        ],
+        "rhyming_words": [
+            "algy",
+            "cal g"
+        ]
+    },
+    {
+        "word": "hoyle",
+        "meaning_en": "an English astrophysicist and advocate of the steady state theory of cosmology; described processes of nucleosynthesis inside stars (1915-2001)",
+        "meaning_hi": "एक अंग्रेजी खगोलशास्त्री और ब्रह्माण्ड विज्ञान के स्थिर अवस्था सिद्धांत के समर्थक; तारों के अंदर न्यूक्लियोसिंथेसिस की वर्णित प्रक्रियाएं (1915-2001)",
+        "sentence": "This is an example sentence for hoyle.",
+        "difficulty": 5,
+        "similar_words": [
+            "hopley",
+            "hoole",
+            "hooley"
+        ],
+        "rhyming_words": [
+            "turmoil",
+            "recoil",
+            "coil"
+        ]
+    },
+    {
+        "word": "ranid",
+        "meaning_en": "insectivorous usually semiaquatic web-footed amphibian with smooth moist skin and long hind legs",
+        "meaning_hi": "कीटभक्षी आमतौर पर चिकनी नम त्वचा और लंबे पिछले पैरों के साथ अर्धजलीय वेब-पैर वाले उभयचर",
+        "sentence": "This is an example sentence for ranid.",
+        "difficulty": 5,
+        "similar_words": [
+            "true frog",
+            "frogs",
+            "batrachian"
+        ],
+        "rhyming_words": [
+            "enchanted",
+            "slanted",
+            "disenchanted"
+        ]
+    },
+    {
+        "word": "bugle",
+        "meaning_en": "a brass instrument without valves; used for military calls and fanfares",
+        "meaning_hi": "बिना वाल्व वाला पीतल का उपकरण; सैन्य आह्वान और धूमधाम के लिए उपयोग किया जाता है",
+        "sentence": "This is an example sentence for bugle.",
+        "difficulty": 5,
+        "similar_words": [
+            "bugleweed",
+            "bugler",
+            "clarion"
+        ],
+        "rhyming_words": [
+            "frugal",
+            "kugel",
+            "centrifugal"
+        ]
+    },
+    {
+        "word": "gloam",
+        "meaning_en": "the time of day immediately following sunset",
+        "meaning_hi": "सूर्यास्त के तुरंत बाद दिन का समय",
+        "sentence": "he loved the twilight",
+        "difficulty": 4,
+        "similar_words": [
+            "evenfall",
+            "dusk",
+            "nightfall"
+        ],
+        "rhyming_words": [
+            "home",
+            "roam",
+            "comb"
+        ]
+    },
+    {
+        "word": "haply",
+        "meaning_en": "by accident",
+        "meaning_hi": "दुर्घटनावश",
+        "sentence": "betrayed by a word haply overheard",
+        "difficulty": 1,
+        "similar_words": [
+            "by chance",
+            "by luck",
+            "fortuitously"
+        ],
+        "rhyming_words": [
+            "bapley",
+            "capley",
+            "rapley"
+        ]
+    },
+    {
+        "word": "cubit",
+        "meaning_en": "an ancient unit of length based on the length of the forearm",
+        "meaning_hi": "बांह की बांह की लंबाई पर आधारित लंबाई की एक प्राचीन इकाई",
+        "sentence": "This is an example sentence for cubit.",
+        "difficulty": 3,
+        "similar_words": [
+            "ark",
+            "bends",
+            "elbows"
+        ],
+        "rhyming_words": [
+            "two-bit",
+            "two bit",
+            "tubate"
+        ]
+    },
+    {
+        "word": "jorum",
+        "meaning_en": "a large drinking bowl",
+        "meaning_hi": "एक बड़ा पीने का कटोरा",
+        "sentence": "This is an example sentence for jorum.",
+        "difficulty": 4,
+        "similar_words": [
+            "joram",
+            "roemer",
+            "rumkin"
+        ],
+        "rhyming_words": [
+            "decorum",
+            "forum",
+            "quorum"
+        ]
+    },
+    {
+        "word": "jirga",
+        "meaning_en": "a Pashto term for a decision making assembly of male elders",
+        "meaning_hi": "पुरुष बुजुर्गों की निर्णय लेने वाली सभा के लिए एक पश्तो शब्द",
+        "sentence": "most criminal cases are handled by a tribal Jirga rather than by laws or police",
+        "difficulty": 3,
+        "similar_words": [
+            "tribal",
+            "loya",
+            "jidgha"
+        ],
+        "rhyming_words": [
+            "berg a",
+            "virga"
+        ]
+    },
+    {
+        "word": "lotus",
+        "meaning_en": "native to eastern Asia; widely cultivated for its large pink or white flowers",
+        "meaning_hi": "पूर्वी एशिया के मूल निवासी; इसके बड़े गुलाबी या सफेद फूलों के लिए व्यापक रूप से खेती की जाती है",
+        "sentence": "This is an example sentence for lotus.",
+        "difficulty": 5,
+        "similar_words": [
+            "sacred lotus",
+            "egyptian water lily",
+            "genus lotus"
+        ],
+        "rhyming_words": [
+            "notice",
+            "take notice",
+            "give notice"
+        ]
+    },
+    {
+        "word": "civet",
+        "meaning_en": "cat-like mammal typically secreting musk used in perfumes",
+        "meaning_hi": "बिल्ली जैसा स्तनपायी आम तौर पर इत्र में इस्तेमाल होने वाली कस्तूरी स्रावित करता है",
+        "sentence": "This is an example sentence for civet.",
+        "difficulty": 6,
+        "similar_words": [
+            "civet cat",
+            "stink-cat",
+            "bushcat"
+        ],
+        "rhyming_words": [
+            "pivot",
+            "give it",
+            "forgive it"
+        ]
+    },
+    {
+        "word": "penis",
+        "meaning_en": "the male organ of copulation (`member' is a euphemism)",
+        "meaning_hi": "मैथुन का पुरुष अंग ('सदस्य' एक व्यंजना है)",
+        "sentence": "This is an example sentence for penis.",
+        "difficulty": 3,
+        "similar_words": [
+            "phallus",
+            "member",
+            "glans"
+        ],
+        "rhyming_words": [
+            "venous",
+            "keenness",
+            "venus"
+        ]
+    },
+    {
+        "word": "patch",
+        "meaning_en": "a small contrasting part of something",
+        "meaning_hi": "किसी चीज़ का छोटा सा विपरीत भाग",
+        "sentence": "a bald spot",
+        "difficulty": 4,
+        "similar_words": [
+            "patch up",
+            "mend",
+            "piece"
+        ],
+        "rhyming_words": [
+            "dispatch",
+            "batch",
+            "snatch"
+        ]
+    },
+    {
+        "word": "motel",
+        "meaning_en": "a motor hotel",
+        "meaning_hi": "एक मोटर होटल",
+        "sentence": "This is an example sentence for motel.",
+        "difficulty": 4,
+        "similar_words": [
+            "motor lodge",
+            "tourist court",
+            "motor hotel"
+        ],
+        "rhyming_words": [
+            "compel",
+            "propel",
+            "impel"
+        ]
+    },
+    {
+        "word": "lived",
+        "meaning_en": "inhabit or live in; be an inhabitant of",
+        "meaning_hi": "निवास करना या रहना; का निवासी हो",
+        "sentence": "People lived in Africa millions of years ago",
+        "difficulty": 1,
+        "similar_words": [
+            "alive",
+            "fulfilled",
+            "subsistence"
+        ],
+        "rhyming_words": [
+            "contrived",
+            "derived",
+            "deprived"
+        ]
+    },
+    {
+        "word": "muzzy",
+        "meaning_en": "indistinct or hazy in outline",
+        "meaning_hi": "रूपरेखा में अस्पष्ट या धुँधली",
+        "sentence": "a landscape of blurred outlines",
+        "difficulty": 1,
+        "similar_words": [
+            "blurred",
+            "blurry",
+            "indistinct"
+        ],
+        "rhyming_words": [
+            "fuzzy",
+            "scuzzy",
+            "frizzy"
+        ]
+    },
+    {
+        "word": "decoy",
+        "meaning_en": "a beguiler who leads someone into danger (usually as part of a plot)",
+        "meaning_hi": "एक धोखेबाज जो किसी को खतरे में ले जाता है (आमतौर पर एक साजिश के हिस्से के रूप में)",
+        "sentence": "This is an example sentence for decoy.",
+        "difficulty": 5,
+        "similar_words": [
+            "lure",
+            "bait",
+            "diversion"
+        ],
+        "rhyming_words": [
+            "coy",
+            "employ",
+            "hoi polloi"
+        ]
+    },
+    {
+        "word": "balsa",
+        "meaning_en": "strong lightweight wood of the balsa tree used especially for floats",
+        "meaning_hi": "बल्सा पेड़ की मजबूत हल्की लकड़ी विशेष रूप से तैरने के लिए उपयोग की जाती है",
+        "sentence": "This is an example sentence for balsa.",
+        "difficulty": 5,
+        "similar_words": [
+            "balsa wood",
+            "ochroma lagopus",
+            "corkwood"
+        ],
+        "rhyming_words": [
+            "salsa",
+            "false a",
+            "khalsa"
+        ]
+    },
+    {
+        "word": "donor",
+        "meaning_en": "person who makes a gift of property",
+        "meaning_hi": "वह व्यक्ति जो संपत्ति का दान करता है",
+        "sentence": "This is an example sentence for donor.",
+        "difficulty": 4,
+        "similar_words": [
+            "giver",
+            "presenter",
+            "donee"
+        ],
+        "rhyming_words": [
+            "moaner",
+            "groaner",
+            "boner"
+        ]
+    },
+    {
+        "word": "clock",
+        "meaning_en": "a timepiece that shows the time of day",
+        "meaning_hi": "एक घड़ी जो दिन का समय बताती है",
+        "sentence": "This is an example sentence for clock.",
+        "difficulty": 5,
+        "similar_words": [
+            "time",
+            "stopwatch",
+            "watch"
+        ],
+        "rhyming_words": [
+            "gawk",
+            "stock",
+            "cock"
+        ]
+    },
+    {
+        "word": "prion",
+        "meaning_en": "(microbiology) an infectious protein particle similar to a virus but lacking nucleic acid; thought to be the agent responsible for scrapie and other degenerative diseases of the nervous system",
+        "meaning_hi": "(माइक्रोबायोलॉजी) एक संक्रामक प्रोटीन कण जो वायरस के समान होता है लेकिन इसमें न्यूक्लिक एसिड की कमी होती है; इसे स्क्रेपी और तंत्रिका तंत्र की अन्य अपक्षयी बीमारियों के लिए जिम्मेदार एजेंट माना जाता है",
+        "sentence": "This is an example sentence for prion.",
+        "difficulty": 3,
+        "similar_words": [
+            "genotype",
+            "variant",
+            "pray"
+        ],
+        "rhyming_words": [
+            "scion",
+            "lion",
+            "zion"
+        ]
+    },
+    {
+        "word": "skill",
+        "meaning_en": "an ability that has been acquired by training",
+        "meaning_hi": "एक योग्यता जो प्रशिक्षण द्वारा अर्जित की गई है",
+        "sentence": "This is an example sentence for skill.",
+        "difficulty": 2,
+        "similar_words": [
+            "accomplishment",
+            "acquirement",
+            "acquisition"
+        ],
+        "rhyming_words": [
+            "shrill",
+            "thrill",
+            "krill"
+        ]
+    },
+    {
+        "word": "spiky",
+        "meaning_en": "having or as if having especially high-pitched spots",
+        "meaning_hi": "विशेष रूप से ऊँचे-ऊँचे धब्बों का होना या होना",
+        "sentence": "absence of peaky highs and beefed-up bass",
+        "difficulty": 1,
+        "similar_words": [
+            "peaky",
+            "high-pitched",
+            "high"
+        ],
+        "rhyming_words": [
+            "dykey",
+            "high key",
+            "mikey"
+        ]
+    },
+    {
+        "word": "mound",
+        "meaning_en": "(baseball) the slight elevation on which the pitcher stands",
+        "meaning_hi": "(बेसबॉल) वह हल्की ऊँचाई जिस पर घड़ा खड़ा होता है",
+        "sentence": "This is an example sentence for mound.",
+        "difficulty": 4,
+        "similar_words": [
+            "hillock",
+            "knoll",
+            "hummock"
+        ],
+        "rhyming_words": [
+            "profound",
+            "expound",
+            "resound"
+        ]
+    },
+    {
+        "word": "dodge",
+        "meaning_en": "an elaborate or deceitful scheme contrived to deceive or evade",
+        "meaning_hi": "धोखा देने या बचने के लिए बनाई गई एक विस्तृत या कपटपूर्ण योजना",
+        "sentence": "his testimony was just a contrivance to throw us off the track",
+        "difficulty": 4,
+        "similar_words": [
+            "evade",
+            "elude",
+            "circumvent"
+        ],
+        "rhyming_words": [
+            "hodgepodge",
+            "dislodge",
+            "podge"
+        ]
+    },
+    {
+        "word": "bairn",
+        "meaning_en": "a child: son or daughter",
+        "meaning_hi": "एक बच्चा: बेटा या बेटी",
+        "sentence": "This is an example sentence for bairn.",
+        "difficulty": 4,
+        "similar_words": [
+            "lad",
+            "puir",
+            "bairnhood"
+        ],
+        "rhyming_words": [
+            "tairn"
+        ]
+    },
+    {
+        "word": "whack",
+        "meaning_en": "the sound made by a sharp swift blow",
+        "meaning_hi": "तेज तेज प्रहार से उत्पन्न ध्वनि",
+        "sentence": "This is an example sentence for whack.",
+        "difficulty": 5,
+        "similar_words": [
+            "wham",
+            "whang",
+            "wallop"
+        ],
+        "rhyming_words": [
+            "crack",
+            "slack",
+            "black"
+        ]
+    },
+    {
+        "word": "mince",
+        "meaning_en": "food chopped into small bits",
+        "meaning_hi": "भोजन छोटे-छोटे टुकड़ों में कटा हुआ",
+        "sentence": "a mince of mushrooms",
+        "difficulty": 3,
+        "similar_words": [
+            "soften",
+            "moderate",
+            "chop"
+        ],
+        "rhyming_words": [
+            "evince",
+            "convince",
+            "since"
+        ]
+    },
+    {
+        "word": "lemon",
+        "meaning_en": "yellow oval fruit with juicy acidic flesh",
+        "meaning_hi": "रसदार अम्लीय गूदे वाला पीला अंडाकार फल",
+        "sentence": "This is an example sentence for lemon.",
+        "difficulty": 6,
+        "similar_words": [
+            "maize",
+            "gamboge",
+            "citrus limon"
+        ],
+        "rhyming_words": [
+            "lemman",
+            "hem in",
+            "hemin"
+        ]
+    },
+    {
+        "word": "genic",
+        "meaning_en": "of or relating to or produced by or being a gene",
+        "meaning_hi": "या किसी जीन से संबंधित या उससे उत्पन्न या होने वाला",
+        "sentence": "genic combinations",
+        "difficulty": 1,
+        "similar_words": [
+            "genetic",
+            "heterozygosity",
+            "geneagenetic"
+        ],
+        "rhyming_words": [
+            "scenic",
+            "enoch",
+            "sthenic"
+        ]
+    },
+    {
+        "word": "spick",
+        "meaning_en": "(ethnic slur) offensive term for persons of Latin American descent",
+        "meaning_hi": "(जातीय गाली) लैटिन अमेरिकी मूल के व्यक्तियों के लिए आपत्तिजनक शब्द",
+        "sentence": "This is an example sentence for spick.",
+        "difficulty": 5,
+        "similar_words": [
+            "spic",
+            "spic-and-span",
+            "spick-and-span"
+        ],
+        "rhyming_words": [
+            "thick",
+            "sick",
+            "prick"
+        ]
+    },
+    {
+        "word": "maleo",
+        "meaning_en": "Celebes megapode that lays eggs in holes in sandy beaches",
+        "meaning_hi": "सेलेब्स मेगापोड जो रेतीले समुद्र तटों में छेद में अंडे देता है",
+        "sentence": "This is an example sentence for maleo.",
+        "difficulty": 6,
+        "similar_words": [
+            "macrocephalon maleo",
+            "malia",
+            "malimbe"
+        ],
+        "rhyming_words": [
+            "billy o",
+            "ditullio"
+        ]
+    },
+    {
+        "word": "lease",
+        "meaning_en": "property that is leased or rented out or let",
+        "meaning_hi": "वह संपत्ति जो पट्टे पर दी गई हो या किराए पर दी गई हो या किराये पर दी गई हो",
+        "sentence": "This is an example sentence for lease.",
+        "difficulty": 4,
+        "similar_words": [
+            "rent",
+            "letting",
+            "rental"
+        ],
+        "rhyming_words": [
+            "nice",
+            "piece",
+            "release"
+        ]
+    },
+    {
+        "word": "strut",
+        "meaning_en": "a proud stiff pompous gait",
+        "meaning_hi": "एक गर्वित कठोर आडम्बरपूर्ण चाल",
+        "sentence": "This is an example sentence for strut.",
+        "difficulty": 5,
+        "similar_words": [
+            "swagger",
+            "sashay",
+            "ruffle"
+        ],
+        "rhyming_words": [
+            "butt",
+            "smut",
+            "glut"
+        ]
+    },
+    {
+        "word": "ample",
+        "meaning_en": "more than enough in size or scope or capacity",
+        "meaning_hi": "आकार या दायरे या क्षमता में पर्याप्त से अधिक",
+        "sentence": "had ample food for the party",
+        "difficulty": 1,
+        "similar_words": [
+            "sizable",
+            "large",
+            "copious"
+        ],
+        "rhyming_words": [
+            "trample",
+            "for example",
+            "sample"
+        ]
+    },
+    {
+        "word": "brace",
+        "meaning_en": "a support that steadies or strengthens something else",
+        "meaning_hi": "ऐसा समर्थन जो किसी और चीज़ को स्थिर या मजबूत करता है",
+        "sentence": "he wore a brace on his knee",
+        "difficulty": 4,
+        "similar_words": [
+            "yoke",
+            "bitstock",
+            "energise"
+        ],
+        "rhyming_words": [
+            "base",
+            "trace",
+            "case"
+        ]
+    },
+    {
+        "word": "kurus",
+        "meaning_en": "100 kurus equal 1 lira in Turkey",
+        "meaning_hi": "तुर्की में 100 कौरव 1 लीरा के बराबर होते हैं",
+        "sentence": "This is an example sentence for kurus.",
+        "difficulty": 4,
+        "similar_words": [
+            "piaster",
+            "piastre",
+            "tennesi"
+        ],
+        "rhyming_words": [
+            "tsuris",
+            "durous",
+            "murices"
+        ]
+    },
+    {
+        "word": "dolor",
+        "meaning_en": "(poetry) painful grief",
+        "meaning_hi": "(कविता) दर्दनाक दुःख",
+        "sentence": "This is an example sentence for dolor.",
+        "difficulty": 4,
+        "similar_words": [
+            "dolour",
+            "suffering",
+            "anguish"
+        ],
+        "rhyming_words": [
+            "polar",
+            "steamroller",
+            "high roller"
+        ]
+    },
+    {
+        "word": "fomes",
+        "meaning_en": "genus of bracket fungi forming corky or woody perennial shelflike sporophores often of large size; includes some that cause destructive heartrot in trees",
+        "meaning_hi": "ब्रैकेट कवक के जीनस जो अक्सर बड़े आकार के कॉर्क या लकड़ी के बारहमासी शेल्फ जैसे स्पोरोफोर बनाते हैं; इसमें कुछ ऐसे भी शामिल हैं जो पेड़ों में विनाशकारी हार्टट्रॉट का कारण बनते हैं",
+        "sentence": "This is an example sentence for fomes.",
+        "difficulty": 3,
+        "similar_words": [
+            "genus fomes",
+            "funge",
+            "feculence"
+        ],
+        "rhyming_words": [
+            "catacombs",
+            "holmes",
+            "gnomes"
+        ]
+    },
+    {
+        "word": "nasal",
+        "meaning_en": "a consonant produced through the nose with the mouth closed",
+        "meaning_hi": "मुँह बंद करके नाक से उत्पन्न होने वाला व्यंजन",
+        "sentence": "This is an example sentence for nasal.",
+        "difficulty": 4,
+        "similar_words": [
+            "rhinal",
+            "nasal bone",
+            "nasal consonant"
+        ],
+        "rhyming_words": [
+            "appraisal",
+            "hazel",
+            "reappraisal"
+        ]
+    },
+    {
+        "word": "holey",
+        "meaning_en": "allowing passage in and out",
+        "meaning_hi": "अंदर और बाहर जाने की अनुमति देना",
+        "sentence": "our unfenced and largely unpoliced border inevitably has been very porous",
+        "difficulty": 1,
+        "similar_words": [
+            "leaky",
+            "porous",
+            "holeful"
+        ],
+        "rhyming_words": [
+            "lowly",
+            "wholly",
+            "slowly"
+        ]
+    },
+    {
+        "word": "butch",
+        "meaning_en": "(slang) offensive term for a lesbian who is noticeably masculine",
+        "meaning_hi": "(स्लैंग) एक समलैंगिक व्यक्ति के लिए आपत्तिजनक शब्द जो स्पष्ट रूप से मर्दाना है",
+        "sentence": "This is an example sentence for butch.",
+        "difficulty": 4,
+        "similar_words": [
+            "homosexual",
+            "macho",
+            "masculine"
+        ],
+        "rhyming_words": [
+            "putsch"
+        ]
+    },
+    {
+        "word": "awash",
+        "meaning_en": "covered with water",
+        "meaning_hi": "पानी से ढका हुआ",
+        "sentence": "the main deck was afloat (or awash)",
+        "difficulty": 1,
+        "similar_words": [
+            "flooded",
+            "inundated",
+            "afloat"
+        ],
+        "rhyming_words": [
+            "panache",
+            "swash",
+            "quash"
+        ]
+    },
+    {
+        "word": "hadji",
+        "meaning_en": "an Arabic term of respect for someone who has made the pilgrimage to Mecca",
+        "meaning_hi": "मक्का की तीर्थयात्रा करने वाले किसी व्यक्ति के लिए सम्मान का अरबी शब्द",
+        "sentence": "This is an example sentence for hadji.",
+        "difficulty": 5,
+        "similar_words": [
+            "haji",
+            "hajji",
+            "haj"
+        ],
+        "rhyming_words": [
+            "cadgy",
+            "hajji",
+            "bragi"
+        ]
+    },
+    {
+        "word": "boron",
+        "meaning_en": "a trivalent metalloid element; occurs both in a hard black crystal and in the form of a yellow or brown powder",
+        "meaning_hi": "एक त्रिसंयोजक उपधातु तत्व; यह कठोर काले क्रिस्टल और पीले या भूरे पाउडर दोनों के रूप में होता है",
+        "sentence": "This is an example sentence for boron.",
+        "difficulty": 3,
+        "similar_words": [
+            "b",
+            "atomic number 5",
+            "neodymium"
+        ],
+        "rhyming_words": [
+            "paragon",
+            "liaison",
+            "automaton"
+        ]
+    },
+    {
+        "word": "unarm",
+        "meaning_en": "take away the weapons from; render harmless",
+        "meaning_hi": "से हथियार छीन लो; हानिरहित प्रस्तुत करना",
+        "sentence": "This is an example sentence for unarm.",
+        "difficulty": 1,
+        "similar_words": [
+            "disarm",
+            "disweapon",
+            "dearmour"
+        ],
+        "rhyming_words": [
+            "charm",
+            "alarm",
+            "harm"
+        ]
+    },
+    {
+        "word": "zoril",
+        "meaning_en": "muishond of northern Africa",
+        "meaning_hi": "उत्तरी अफ़्रीका का म्यूशोंड",
+        "sentence": "This is an example sentence for zoril.",
+        "difficulty": 7,
+        "similar_words": [
+            "ictonyx frenata",
+            "zorilla",
+            "zorille"
+        ],
+        "rhyming_words": [
+            "immoral",
+            "moral",
+            "amoral"
+        ]
+    },
+    {
+        "word": "fetid",
+        "meaning_en": "offensively malodorous",
+        "meaning_hi": "आक्रामक रूप से दुर्गंधयुक्त",
+        "sentence": "a foul odor",
+        "difficulty": 1,
+        "similar_words": [
+            "foetid",
+            "stinking",
+            "foul-smelling"
+        ],
+        "rhyming_words": [
+            "indebted",
+            "vetted",
+            "fretted"
+        ]
+    },
+    {
+        "word": "smelt",
+        "meaning_en": "small cold-water silvery fish; migrate between salt and fresh water",
+        "meaning_hi": "छोटी ठंडे पानी की चांदी जैसी मछली; खारे और ताजे पानी के बीच प्रवास करें",
+        "sentence": "This is an example sentence for smelt.",
+        "difficulty": 7,
+        "similar_words": [
+            "rock",
+            "refine",
+            "osmerid"
+        ],
+        "rhyming_words": [
+            "svelte",
+            "pelt",
+            "heartfelt"
+        ]
     }
 ]

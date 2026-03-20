@@ -1,1 +1,4 @@
 pyTelegramBotAPI
+nltk
+requests
+deep-translator
